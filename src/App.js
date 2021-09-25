@@ -50,6 +50,7 @@ function App() {
           <ul>
             {emojis.map((item) => (
               <span
+                key={item}
                 className="emoji-bit"
                 onClick={() => {
                   emojiClickHandler(item);
