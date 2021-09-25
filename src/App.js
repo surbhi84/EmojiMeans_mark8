@@ -30,6 +30,21 @@ function App() {
       <input className="input" onChange={eventHandler} />
       {/* <button onClick={}>click me</button> */}
       <div className="meaning">{meaning}</div>
+
+      <div class="emojiTab">
+        <ul>
+          {emojis.map((item) => (
+            <span
+              className="emoji-bit"
+              onClick={() => {
+                // emojiClickHandler(item);
+              }}
+            >
+              {item}
+            </span>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
