@@ -1,3 +1,25 @@
+# EmojiMeans
+A web application that provides you with all the hidden meaning an emoji contains.Simply put in the emoji in the input field or select from the given choices to know the meaning behind an emoticon.
+
+## Features
+* Takes input from the user.
+* Displays the meaning of the emoji.
+* Enables you to choose from a variety of emojis to get their meanings.
+* Makes use of Object.keys,useState,onChange.
+* Consists of gif,images and font style.
+* Contains a footer with links to the developers social handles.
+
+## Technologies
+* Html
+* JavaScript
+* CSS
+
+## Live link
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
