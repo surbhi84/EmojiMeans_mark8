@@ -1,12 +1,7 @@
 import "./App.css";
 import { useState } from "react";
-
+import { emojidic } from "./data";
 function App() {
-  var emojidic = {
-    "🙂": "smile",
-    hey: "there",
-  };
-
   var emojis = Object.keys(emojidic);
 
   const [meaning, setMeaning] = useState("");
