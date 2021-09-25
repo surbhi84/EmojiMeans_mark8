@@ -62,6 +62,33 @@ function App() {
           </ul>
         </div>
       </div>
+
+      <footer>
+        <ul>
+          <li>
+            <a href="https://github.com/Surbhi84">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="fab fa-medium-m"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/surbhi-kukreti-a91b0b163">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://surbhikukreti.netlify.app/">
+              <i class="fas fa-laptop"></i>
+            </a>
+          </li>
+        </ul>
+
+        <div id="legacyText">© 2021 | Surbhi Kukreti</div>
+      </footer>
     </div>
   );
 }
