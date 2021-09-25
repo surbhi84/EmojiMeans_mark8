@@ -21,6 +21,15 @@ function App() {
     setMeaning(meaning);
   }
 
+  const emojiClickHandler = (item) => {
+    var meaning = emojidic[item];
+
+    if (meaning === undefined) {
+      meaning = "we do not have the emoji in our database";
+    }
+    setMeaning(meaning);
+  };
+
   return (
     <div className="App">
       <header>
