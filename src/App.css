@@ -4,3 +4,24 @@
   padding-right: 1rem;
   padding-left: 2rem;
 }
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: url("/src/image.jpg");
+  background-position: center;
+  height: 20vh;
+  font-size: 2rem;
+}
+
+.text {
+  color: #03629e;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
