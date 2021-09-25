@@ -51,6 +51,7 @@ function App() {
                   emojiClickHandler(item);
                 }}
               >
+                {" "}
                 {item}
               </span>
             ))}
