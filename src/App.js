@@ -67,7 +67,7 @@ function App() {
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://medium.com/@subuhikukreti">
               <i class="fab fa-medium-m"></i>
             </a>
           </li>
