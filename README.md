@@ -15,7 +15,7 @@ A web application that provides you with all the hidden meaning an emoji contain
 * CSS
 
 ## Live link
-
+https://emojimean.netlify.app/
 
 
 
