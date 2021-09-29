@@ -11,7 +11,7 @@ function App() {
     var meaning = emojidic[emojiInput];
 
     if (meaning === undefined) {
-      meaning = "we do not have the emoji in our database";
+      meaning = "Sorry we do not have this emoji in our database";
     }
     setMeaning(meaning);
   }
@@ -20,7 +20,7 @@ function App() {
     var meaning = emojidic[item];
 
     if (meaning === undefined) {
-      meaning = "we do not have the emoji in our database";
+      meaning = "Sorry we do not have this emoji in our database";
     }
     setMeaning(meaning);
   };
@@ -32,10 +32,7 @@ function App() {
       </header>
 
       <div className="main">
-        <h1 className="text">
-          {" "}
-          hey there wanna know the meaning of emoticons{" "}
-        </h1>
+        <h1 className="text">Enter the emoji you want to decode!</h1>
 
         <input className="input" onChange={eventHandler} />
         {/* <button onClick={}>click me</button> */}
